@@ -1,0 +1,16 @@
+Setup instructions
+1. Download vcprompt
+
+sudo curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt
+
+2. Change permissions on vcprompt folder to 755
+
+sudo chmod 755 ~/bin/vcprompt
+
+3. Create a .bash_profile file if it doesn't already exist
+
+touch .bash_profile
+
+4. Copy and paste the contents of bash_profile into your .bash_profile file
+
+5. That's it. See http://blog.twistedcode.org/2008/03/customizing-your-bash-prompt.html for more details on how to customize your command prompt.
