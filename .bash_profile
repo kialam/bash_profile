@@ -6,6 +6,8 @@ parse_git_branch() {
 
 #PS1='\[\033[0;32m\]\u\[\033[00m\] in \[\033[0;32m\]$( pwd ) ($( OUT=$( ls -A | wc -l ); echo $OUT ) entries, $(( $( ls -A | wc -l ) - $( ls | wc -l ) )) hidden)\n\[\033[1;32m\]\# \! \$\[\033[;m\] '
 
+alias ls='ls -lah'
+
 export PATH=~/bin:$PATH  
   
 txtblk='\e[0;30m' # Black - Regular  
